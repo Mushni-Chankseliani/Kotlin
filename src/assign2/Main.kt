@@ -9,9 +9,9 @@ fun main() {
     f2.numerator = 5F
     f2.demonimator = 3F
 
-    println(f1.sum(f2))
-    println(f1.mult(f2))
-    println(f1.divider())
+    f1.sum(f2)
+    f1.mult(f2)
+    f1.divider()
 
 
 }
